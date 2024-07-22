@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyBookList</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <header>
+        <h1>MyBookList</h1>
+
+        <section class="header-section">
+            <button id="addbook">Adicionar Livro</button>
+            <div class="div-book-search">
+                <input type="text" name="bookSearch" id="book-search" placeholder="search for...">
+                <button><img src="https://cdn-icons-png.flaticon.com/512/2811/2811790.png" alt="pesquisar" id="search-icon"></button>
+            </div>
+        </section>
+    </header> <hr>
+
+
+    <section class="center-card">
+        <div class="background-card">
+            <form action="" id="form-addbook">
+                <label for="">Título</label><br>
+                <input type="text" id="book-title"> <br>
+    
+                <label for="">Autor</label><br>
+                <input type="text" id="author-book"> <br>
+    
+                <label for="">Gênero</label><br>
+                <input type="text" id="gender-book"> <br>
+    
+                <label for="">Ano de publicação</label><br>
+                <input type="number" name="publi-book" id="publi-book">
+    
+                <section>
+                    <label for="">Nota:</label> <br>
+    
+                    <label for="">1</label>
+                    <input type="radio" name="notes" id="note-1">
+    
+                    <label for="">2</label>
+                    <input type="radio" name="notes" id="note-2">
+    
+                    <label for="">3</label>
+                    <input type="radio" name="notes" id="note-3">
+    
+                    <label for="">4</label>
+                    <input type="radio" name="notes" id="note-4">
+    
+                    <label for="">5</label>
+                    <input type="radio" name="notes" id="note-5">
+                </section> <br>
+
+                <div class="button-card">
+                    <button id="send-button" type="submit">Enviar</button>
+                    <button id="cancel-button">Cancelar</button>
+                </div>
+            </form>
+        </div>
+    </section>
+    <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Oswald", sans-serif;
+}
+h1 {
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    color: #2e51a2;
+    margin-left: 1rem;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin: 0rem 0rem 0rem 0rem;
+}
+
+#search-icon {
+    height: 1.3rem;
+    width: 1.3rem;
+}
+
+.header-section {
+    display: flex;
+    margin-top: 0.8rem;
+    margin-right: 1rem;
+    align-items: center;
+}
+
+#addbook {
+    height: 1.5rem;
+    margin-right: 0.5rem;
+}
+
+#book-search {
+    height: 1.5rem;
+    margin-right: 0.5rem;
+}
+
+.div-book-search {
+    display: flex;
+    align-items: center;
+}
+
+
+.center-card {
+    display: none;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+}
+
+.background-card {
+    box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.4);
+    padding: 3rem;
+    border-radius: 20px;
+}
+
+
+.header-section button{
+    border: none;
+    color: #2e51a2;
+    border-radius: 5px;
+    box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.4);
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.center-card button{
+    border: none;
+    color: #2e51a2;
+    padding: 0.5em;
+    border-radius: 5px;
+    box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.4);
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+}
+#addbook{
+    padding: 0.2rem;
+}
+button{
+    cursor: pointer;
+}
+
+button:hover{
+background-color: rgb(218, 218, 218);
+transition: 0.3s;
+}
+
+.button-card{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+}
